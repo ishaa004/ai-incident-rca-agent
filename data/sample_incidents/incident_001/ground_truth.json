@@ -1,0 +1,16 @@
+{
+  "incident_id": "incident_001",
+  "summary": "Checkout service p99 latency spike and 5xx errors after deploy",
+  "expected_root_cause": "The v2.14.0 deploy introduced a background task that opens a DB session without releasing it, leaking connections and exhausting the checkout-service Postgres connection pool, which caused request timeouts and 5xx errors.",
+  "relevant_knowledge_sections": [
+    "runbook:checkout-service \u203a Known failure mode: DB connection pool exhaustion",
+    "historical_incident:INC-2041 \u203a Root cause",
+    "architecture_doc:checkout-flow \u203a Database"
+  ],
+  "expected_evidence_signals": [
+    "db_pool_in_use metric pinned near max (20)",
+    "QueuePool limit ... overflow ... reached error logs",
+    "deploy v2.14.0 timestamp precedes error onset",
+    "db.acquire_connection trace spans dominate duration, not payment-gateway"
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "service": "checkout-service",
+    "version": "v2.14.0",
+    "description": "Add abandoned-cart reminder background task; minor refactor of order confirmation flow.",
+    "timestamp": "2026-09-10T14:02:00"
+  },
+  {
+    "service": "payment-gateway",
+    "version": "v1.9.2",
+    "description": "Bump processor SDK version.",
+    "timestamp": "2026-09-07T14:02:00"
+  }
+]

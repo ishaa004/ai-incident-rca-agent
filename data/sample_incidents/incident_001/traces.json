@@ -1,0 +1,242 @@
+[
+  {
+    "trace_id": "trace-1000",
+    "span_id": "trace-1000-root",
+    "parent_span_id": "",
+    "service": "checkout-service",
+    "operation": "POST /checkout",
+    "duration_ms": 4200,
+    "status": "error",
+    "timestamp": "2026-09-10T14:06:00"
+  },
+  {
+    "trace_id": "trace-1000",
+    "span_id": "trace-1000-inventory",
+    "parent_span_id": "trace-1000-root",
+    "service": "inventory-service",
+    "operation": "reserve_stock",
+    "duration_ms": 45,
+    "status": "ok",
+    "timestamp": "2026-09-10T14:06:00"
+  },
+  {
+    "trace_id": "trace-1000",
+    "span_id": "trace-1000-payment",
+    "parent_span_id": "trace-1000-root",
+    "service": "payment-gateway",
+    "operation": "authorize",
+    "duration_ms": 180,
+    "status": "ok",
+    "timestamp": "2026-09-10T14:06:00"
+  },
+  {
+    "trace_id": "trace-1000",
+    "span_id": "trace-1000-db",
+    "parent_span_id": "trace-1000-root",
+    "service": "checkout-service",
+    "operation": "db.acquire_connection",
+    "duration_ms": 3900,
+    "status": "error",
+    "timestamp": "2026-09-10T14:06:00"
+  },
+  {
+    "trace_id": "trace-1001",
+    "span_id": "trace-1001-root",
+    "parent_span_id": "",
+    "service": "checkout-service",
+    "operation": "POST /checkout",
+    "duration_ms": 4350,
+    "status": "error",
+    "timestamp": "2026-09-10T14:07:00"
+  },
+  {
+    "trace_id": "trace-1001",
+    "span_id": "trace-1001-inventory",
+    "parent_span_id": "trace-1001-root",
+    "service": "inventory-service",
+    "operation": "reserve_stock",
+    "duration_ms": 45,
+    "status": "ok",
+    "timestamp": "2026-09-10T14:07:00"
+  },
+  {
+    "trace_id": "trace-1001",
+    "span_id": "trace-1001-payment",
+    "parent_span_id": "trace-1001-root",
+    "service": "payment-gateway",
+    "operation": "authorize",
+    "duration_ms": 180,
+    "status": "ok",
+    "timestamp": "2026-09-10T14:07:00"
+  },
+  {
+    "trace_id": "trace-1001",
+    "span_id": "trace-1001-db",
+    "parent_span_id": "trace-1001-root",
+    "service": "checkout-service",
+    "operation": "db.acquire_connection",
+    "duration_ms": 4050,
+    "status": "error",
+    "timestamp": "2026-09-10T14:07:00"
+  },
+  {
+    "trace_id": "trace-1002",
+    "span_id": "trace-1002-root",
+    "parent_span_id": "",
+    "service": "checkout-service",
+    "operation": "POST /checkout",
+    "duration_ms": 4500,
+    "status": "error",
+    "timestamp": "2026-09-10T14:08:00"
+  },
+  {
+    "trace_id": "trace-1002",
+    "span_id": "trace-1002-inventory",
+    "parent_span_id": "trace-1002-root",
+    "service": "inventory-service",
+    "operation": "reserve_stock",
+    "duration_ms": 45,
+    "status": "ok",
+    "timestamp": "2026-09-10T14:08:00"
+  },
+  {
+    "trace_id": "trace-1002",
+    "span_id": "trace-1002-payment",
+    "parent_span_id": "trace-1002-root",
+    "service": "payment-gateway",
+    "operation": "authorize",
+    "duration_ms": 180,
+    "status": "ok",
+    "timestamp": "2026-09-10T14:08:00"
+  },
+  {
+    "trace_id": "trace-1002",
+    "span_id": "trace-1002-db",
+    "parent_span_id": "trace-1002-root",
+    "service": "checkout-service",
+    "operation": "db.acquire_connection",
+    "duration_ms": 4200,
+    "status": "error",
+    "timestamp": "2026-09-10T14:08:00"
+  },
+  {
+    "trace_id": "trace-1003",
+    "span_id": "trace-1003-root",
+    "parent_span_id": "",
+    "service": "checkout-service",
+    "operation": "POST /checkout",
+    "duration_ms": 4650,
+    "status": "error",
+    "timestamp": "2026-09-10T14:09:00"
+  },
+  {
+    "trace_id": "trace-1003",
+    "span_id": "trace-1003-inventory",
+    "parent_span_id": "trace-1003-root",
+    "service": "inventory-service",
+    "operation": "reserve_stock",
+    "duration_ms": 45,
+    "status": "ok",
+    "timestamp": "2026-09-10T14:09:00"
+  },
+  {
+    "trace_id": "trace-1003",
+    "span_id": "trace-1003-payment",
+    "parent_span_id": "trace-1003-root",
+    "service": "payment-gateway",
+    "operation": "authorize",
+    "duration_ms": 180,
+    "status": "ok",
+    "timestamp": "2026-09-10T14:09:00"
+  },
+  {
+    "trace_id": "trace-1003",
+    "span_id": "trace-1003-db",
+    "parent_span_id": "trace-1003-root",
+    "service": "checkout-service",
+    "operation": "db.acquire_connection",
+    "duration_ms": 4350,
+    "status": "error",
+    "timestamp": "2026-09-10T14:09:00"
+  },
+  {
+    "trace_id": "trace-1004",
+    "span_id": "trace-1004-root",
+    "parent_span_id": "",
+    "service": "checkout-service",
+    "operation": "POST /checkout",
+    "duration_ms": 4800,
+    "status": "error",
+    "timestamp": "2026-09-10T14:10:00"
+  },
+  {
+    "trace_id": "trace-1004",
+    "span_id": "trace-1004-inventory",
+    "parent_span_id": "trace-1004-root",
+    "service": "inventory-service",
+    "operation": "reserve_stock",
+    "duration_ms": 45,
+    "status": "ok",
+    "timestamp": "2026-09-10T14:10:00"
+  },
+  {
+    "trace_id": "trace-1004",
+    "span_id": "trace-1004-payment",
+    "parent_span_id": "trace-1004-root",
+    "service": "payment-gateway",
+    "operation": "authorize",
+    "duration_ms": 180,
+    "status": "ok",
+    "timestamp": "2026-09-10T14:10:00"
+  },
+  {
+    "trace_id": "trace-1004",
+    "span_id": "trace-1004-db",
+    "parent_span_id": "trace-1004-root",
+    "service": "checkout-service",
+    "operation": "db.acquire_connection",
+    "duration_ms": 4500,
+    "status": "error",
+    "timestamp": "2026-09-10T14:10:00"
+  },
+  {
+    "trace_id": "trace-1005",
+    "span_id": "trace-1005-root",
+    "parent_span_id": "",
+    "service": "checkout-service",
+    "operation": "POST /checkout",
+    "duration_ms": 4950,
+    "status": "error",
+    "timestamp": "2026-09-10T14:11:00"
+  },
+  {
+    "trace_id": "trace-1005",
+    "span_id": "trace-1005-inventory",
+    "parent_span_id": "trace-1005-root",
+    "service": "inventory-service",
+    "operation": "reserve_stock",
+    "duration_ms": 45,
+    "status": "ok",
+    "timestamp": "2026-09-10T14:11:00"
+  },
+  {
+    "trace_id": "trace-1005",
+    "span_id": "trace-1005-payment",
+    "parent_span_id": "trace-1005-root",
+    "service": "payment-gateway",
+    "operation": "authorize",
+    "duration_ms": 180,
+    "status": "ok",
+    "timestamp": "2026-09-10T14:11:00"
+  },
+  {
+    "trace_id": "trace-1005",
+    "span_id": "trace-1005-db",
+    "parent_span_id": "trace-1005-root",
+    "service": "checkout-service",
+    "operation": "db.acquire_connection",
+    "duration_ms": 4650,
+    "status": "error",
+    "timestamp": "2026-09-10T14:11:00"
+  }
+]

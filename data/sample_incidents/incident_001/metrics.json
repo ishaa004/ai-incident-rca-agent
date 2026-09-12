@@ -1,0 +1,422 @@
+[
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 118,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:02:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 0.1,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:02:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 4,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:02:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 120,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:03:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 0.1,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:03:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 5,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:03:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 340,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:04:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 3.6,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:04:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 6,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:04:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 560,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:05:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 7.1,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:05:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 8,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:05:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 780,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:06:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 10.6,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:06:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 10,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:06:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 1000,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:07:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 14.1,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:07:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 12,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:07:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 1220,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:08:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 17.6,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:08:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 14,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:08:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 1440,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:09:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 21.1,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:09:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 16,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:09:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 1660,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:10:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 24.6,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:10:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 18,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:10:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 1880,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:11:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 28.1,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:11:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 20,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:11:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 2100,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:12:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 31.6,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:12:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 20,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:12:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 2320,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:13:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 35.1,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:13:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 20,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:13:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 2540,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:14:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 38.6,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:14:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 20,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:14:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 2760,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:15:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 42.0,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:15:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 20,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:15:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 2980,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:16:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 42.0,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:16:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 20,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:16:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 3200,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:17:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 42.0,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:17:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 20,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:17:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 3420,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:18:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 42.0,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:18:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 20,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:18:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 3640,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:19:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 42.0,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:19:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 20,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:19:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 3860,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:20:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 42.0,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:20:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 20,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:20:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "p99_latency_ms",
+    "value": 4080,
+    "unit": "ms",
+    "timestamp": "2026-09-10T14:21:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "error_rate_pct",
+    "value": 42.0,
+    "unit": "pct",
+    "timestamp": "2026-09-10T14:21:00"
+  },
+  {
+    "service": "checkout-service",
+    "metric_name": "db_pool_in_use",
+    "value": 20,
+    "unit": "connections",
+    "timestamp": "2026-09-10T14:21:00"
+  }
+]
